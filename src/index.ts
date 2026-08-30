@@ -1,3 +1,16 @@
+/**
+ * dsh-color-palette — 颜色工具
+ *
+ * 功能：
+ * 1. HEX/RGB/HSL转换
+ * 2. 和谐配色
+ * 3. WCAG对比度检查
+ * 4. 渐变色生成
+ *
+ * 工具：color_convert, color_harmony, color_contrast, color_shades
+ * 命令：/color
+ * 配置：enabled
+ */
 import { z } from 'zod';
 export const name = 'dsh-color-palette';
 export const inject = ['settings', 'tools', 'commands'];
