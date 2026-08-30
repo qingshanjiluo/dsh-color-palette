@@ -1,0 +1,5 @@
+﻿- insert:
+    - id: color-palette
+      name: dsh-color-palette
+      config:
+        enabled: true
