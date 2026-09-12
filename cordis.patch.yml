@@ -1,5 +1,9 @@
-﻿- insert:
+# dsh-color-palette bundle layer: inserts the host tool plugin into a profile's
+# layer stack. Install with:
+#   npx -y @deepseek-ai/dsh plugin --profile web add @qingshanjiluo/dsh-color-palette
+- insert:
     - id: color-palette
-      name: dsh-color-palette
+      name: '@qingshanjiluo/dsh-color-palette'
       config:
-        enabled: true
+        maxShades: 12
+        hexUppercase: true
